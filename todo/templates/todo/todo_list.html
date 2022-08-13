@@ -9,9 +9,9 @@
 {% for todo in todos %}
 
 <a href = "{% url 'update'  todo.id %}">
-<li>{{todo}}</li>
+<li><h3>{{todo}}</h3></li>
 </a>
-
+<p>------------------------</p>
 {% endfor %}
 </ul>
 
